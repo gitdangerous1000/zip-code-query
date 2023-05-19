@@ -1,31 +1,3 @@
-//  var voceCmoprouOsprodutos = new Promise(function (resolve, reject) {
-//      setTimeout(function () {
-//          var products = ['Camisa', 'Sapato', 'Calça']
-//      resolve('Deu ruim')
-//      }, 3000)
-//     })
-
-//  voceCmoprouOsprodutos.then(function(products) {
-//      console.log(products)
-//     }).catch(function(error) {
-//      console.log(error)
-//  })
-
-                    // Utilizando Axios//
-//  var button = document.querySelector('#app button')
-
-//   button.addEventListener('click', function () {
-//       axios.get('https://api.github.com/users')
-//       .then(function (response) {
-//           console.log(response.data[0].login)
-//       })
-//       .catch(function (error) {
-//           console.log(error)
-//       }).finally(function () {
-//           console.log('Pesquisa finalizada.')
-//       })
-//   })
-
                 //  Formatando CEP//
  var submitButton = document.querySelector('#app form button')
  var zipCodeField = document.querySelector('#app form input')
